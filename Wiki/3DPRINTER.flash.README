@@ -1,0 +1,1 @@
+sudo avrdude -C /etc/avrdude.conf -v -patmega2560 -cstk500v2 -P/dev/ttyACM0 -b115200 -D -Uflash:w:1_75mm_MK2-RAMBo13a-E3Dv6full.hex:i
